@@ -1,7 +1,10 @@
 {
     "name": "fusion-simple-app",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "./src/main.js",
+    "scripts": {
+        "dev": "fusion dev"
+    },
     "repository": "https://github.com/yamyn/fusion-simple-app.git",
     "author": "ya_myn <yaroslav.mynchenko@onix-systems.com>",
     "license": "MIT",
@@ -9,8 +12,11 @@
         "cz-conventional-changelog": "^3.2.0",
         "fusion-cli": "2.10.0",
         "fusion-core": "2.2.1",
+        "fusion-plugin-react-helmet-async": "^2.2.3",
         "fusion-react": "4.0.2",
         "fusion-tokens": "2.1.2",
+        "isomorphic-fetch": "^2.2.1",
+        "koa-bodyparser": "^4.3.0",
         "react": "16.13.1",
         "react-dom": "16.13.1"
     },
